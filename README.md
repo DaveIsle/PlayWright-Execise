@@ -58,6 +58,16 @@ A custom fixture file was created to extend Playwright's built-in `test` object.
 
 ---
 
+## Known Issues
+
+### Product Search Test
+I implemented the test as specified. The test has been marked with @expectedFailure.
+It fails because the system returns products that do not contain the search term "Dress".
+This indicates a mismatch between the requirement and the system behaviour, so I’ve highlighted it for clarification.
+In a commercial context, I would discuss this with the stakeholders to determine whether the requirement needs to be adjusted or if there is a bug in the system that needs to be fixed. I would never assume requirements or how a system should work. 
+
+---
+
 ## AI Usage
 
 AI (Claude by Anthropic) was used throughout this exercise as a pair programming aid, specifically for:
